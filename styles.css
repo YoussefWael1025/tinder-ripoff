@@ -23,9 +23,6 @@ h3 {
   padding: 3% 15%;
 }
 
-.class {
-  transform: rotateY(30deg);
-}
 
 /* Navigation Bar */
 .navbar-brand {
@@ -55,9 +52,15 @@ h3 {
 
 /* title image */
 .title-image {
-  width: 60%;
+  width: 20%;
+  right: 20%;
   transform: rotate(25deg);
-  display: inline-block;
+  position: absolute;
+}
+#features {
+  position: relative;
+  z-index: 1;
+  background-color: #fff;
 }
 
 /* product information */
