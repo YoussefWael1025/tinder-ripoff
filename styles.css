@@ -64,6 +64,7 @@ h3 {
 .product-information {
   padding: 7% 15%;
   text-align: center;
+  margin: 0;
 }
 
 .product-information-content {
