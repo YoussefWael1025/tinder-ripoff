@@ -52,7 +52,7 @@ h3 {
 
 /* title image */
 .title-image {
-  width: 18%;
+  width: 275px;
   right: 20%;
   transform: rotate(25deg);
   position: absolute;
@@ -164,4 +164,25 @@ padding: 7% 15%;
 }
 .ic {
   margin: 5px;
+}
+@media (max-width: 995px){
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    width: 225px;
+    right: 40%;
+  }
+  #title {
+    text-align: center;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 1270px) and (min-width: 994px){
+  .title-image {
+    transform: rotate(0);
+    width: 250px;
+    position:static;
+  }
 }
